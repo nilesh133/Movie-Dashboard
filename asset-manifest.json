@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Movie-Dashboard/static/css/main.f04320f8.css",
+    "main.js": "/Movie-Dashboard/static/js/main.be47ece8.js",
+    "static/media/squidgamewatching.png": "/Movie-Dashboard/static/media/squidgamewatching.b90429945b962723834d.png",
+    "static/media/moneyheist.png": "/Movie-Dashboard/static/media/moneyheist.06bfaf3d95ff2fb40f1b.png",
+    "static/media/thefamilyman.png": "/Movie-Dashboard/static/media/thefamilyman.0fba09e8abe5d893d8fb.png",
+    "static/media/hotstarlogo.png": "/Movie-Dashboard/static/media/hotstarlogo.722be6eef32abcdc0774.png",
+    "static/media/allofusaredead.png": "/Movie-Dashboard/static/media/allofusaredead.d2e28a534a8e0651b892.png",
+    "static/media/shershaah.png": "/Movie-Dashboard/static/media/shershaah.c5fa4b06382c154b8139.png",
+    "static/media/squidgame.png": "/Movie-Dashboard/static/media/squidgame.01c6566e9f2673b09521.png",
+    "index.html": "/Movie-Dashboard/index.html",
+    "main.f04320f8.css.map": "/Movie-Dashboard/static/css/main.f04320f8.css.map",
+    "main.be47ece8.js.map": "/Movie-Dashboard/static/js/main.be47ece8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f04320f8.css",
+    "static/js/main.be47ece8.js"
+  ]
+}
