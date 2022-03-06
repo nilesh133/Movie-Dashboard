@@ -1,0 +1,87 @@
+.movieslist{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    margin-top: 1.5rem;
+    &_movie{
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 1rem;
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 1rem;
+            background: linear-gradient(to bottom, transparent, transparent, transparent, rgba(0, 0, 0, 0.5));
+        }
+        &_img1{
+            background-image: url("../images/moneyheist.png");
+            background-position: center;
+            background-size: cover;
+            width: 500px;
+            height: 280px;
+            border-radius: 1rem;
+            transition: all 0.3s ease-in-out;
+            
+        }
+        &_img2{
+            background-image: url("../images/squidgame.png");
+            background-position: center;
+            background-size: cover;
+            width: 250px;
+            height: 280px;
+            border-radius: 1rem;
+        }
+        &_img3{
+            background-image: url("../images/thefamilyman.png");
+            background-position: center;
+            background-size: cover;
+            width: 250px;
+            height: 280px;
+            border-radius: 1rem;
+        }
+        p{
+            position: absolute;
+            top: 0;
+            left: 75%;
+            background-color: #DBA506;
+            font-family: "Poppins", sans-serif;
+            font-size: 0.7rem;
+            padding: 0.3rem 0.5rem;
+            border-radius: 0.5rem;
+            text-shadow: 0 0 6px white;
+        }
+        &_info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 70%;
+            color: white;
+            font-family: "Fredoka", sans-serif;
+            width: 100%;
+            h3{
+                letter-spacing: 1px;
+                margin: 0 0 0.6rem 1.1rem;
+                text-shadow: 0 0 1px white;
+            }
+            h4{
+                font-weight: 500;
+                margin: 0 0 0 1.1rem;
+                text-shadow: 0 0 1px white;
+            }
+            span{
+               margin-right: 2rem;
+               padding: 0.5rem 0.5rem 0.4rem 0.6rem;
+               color: white;
+               border-radius: 50%;
+               font-size: 3rem;
+               
+            }
+        }
+    }
+}

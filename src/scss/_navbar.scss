@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    background-color: #EAF1F5;
+    font-family: "Fredoka", sans-serif;
+    height: 91vh;
+    &_heading{
+        font-size: 1.1rem;
+        padding: 0.5rem 0.8rem;
+        color: white;
+        background-color: #080808;
+        border-radius: 50%;
+        font-weight: bolder;
+        margin-bottom: 3rem;
+    }
+    &_options{
+        display: flex;
+        flex-direction: column;
+        span{
+            font-size: 1.5rem;
+            margin-bottom: 2.5rem;
+            color: #a1a1a1;
+            cursor: pointer;
+        }
+    }
+}

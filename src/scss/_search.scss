@@ -1,0 +1,36 @@
+.search{
+    display: flex;
+    justify-content: space-between;
+    h3{
+        font-family: "Fredoka", sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+    &_box{
+        display: flex;
+        align-items: center;
+        padding: 0.3rem 1rem;
+        flex-grow: 1;
+        background-color: #f0f8ff;
+        border-radius: 0.5rem;
+        margin-left: 3rem;
+        margin-top: -0.7rem;
+        span{
+            font-size: 1.5rem;
+            color: #a1a1a1;
+            margin-right: 0.7rem;
+            margin-top: 0.3rem;
+        }
+        input{
+            background-color: #f0f8ff;
+            border: none;
+            outline: none;
+            width: 100%;
+            &::placeholder{
+                font-family: "Poppins", sans-serif;
+                color: #a1a1a1;
+            }
+        }
+    }
+}

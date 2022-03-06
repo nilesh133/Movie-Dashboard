@@ -1,0 +1,183 @@
+.watchinglist{
+    margin-top: 2rem;
+    display: flex;
+    &_left{
+        flex-grow: 1;
+        &_heading{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            h3{
+                font-family: "Fredoka", sans-serif;
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+                margin: 0;
+                span{
+                    font-family: "Fredoka", sans-serif;
+                    font-size: 0.9rem;
+                    letter-spacing: 1px;
+                    margin: 0;
+                    color: #a1a1a1;
+                    margin-left: 0.5rem;
+                }
+            }
+            h4{
+                padding: 0.3rem 0.6rem;
+                color: orangered;
+                border-radius: 1.3rem;
+                border: 1px solid #a1a1a1;
+                margin: 0;
+                font-family: "Fredoka", sans-serif;
+                font-size: 0.8rem;
+            }
+        }
+        &_movies{
+            display: flex;
+            justify-content: space-between;
+            &_movie{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                &_1{
+                    background-image: url("../images/shershaah.png");
+                    background-position: center;
+                    background-size: cover;
+                    width: 360px;
+                    height: 215px;
+                    border-radius: 1rem;
+                    position: relative;
+                    cursor: pointer;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 1rem;
+                        background: linear-gradient(to bottom, transparent, transparent, transparent, rgba(0, 0, 0, 0.7));
+                    }
+                }
+                &_2{
+                    background-image: url("../images/squidgamewatching.png");
+                    background-position: center;
+                    background-size: cover;
+                    width: 360px;
+                    height: 215px;
+                    border-radius: 1rem;
+                    position: relative;
+                    cursor: pointer;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 1rem;
+                        background: linear-gradient(to bottom, transparent, transparent, transparent, rgba(0, 0, 0, 0.7));
+                    }
+                }
+                &_duration{
+                    position: absolute;
+                    top: 70%;
+                    height: 5px;
+                    width: 85%;
+                    background-color: rgba(255, 255, 255, 0.5);
+                    margin-left: 2rem;
+                    border-radius: 0.7rem;
+                    &_inner{
+                        position: absolute;
+                        height: 5px;
+                        width: 65%;
+                        background-color: #fff;
+                        border-radius: 0.7rem;
+                    }
+                }
+                &_info{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: #EAF1F5;
+                    margin-top: 0.5rem;
+                    padding: 0rem 0.8rem;
+                    width: 80%;
+                    margin: 0.5rem auto 0rem;
+                    border-radius: 1rem;
+                    h3{
+                        font-family: "Fredoka", sans-serif;
+                        font-size: 0.9rem;
+                    }
+                    span{
+                        color: orangered;
+                        font-size: 1.5rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    &_right{
+        position: relative;
+        margin-left: 2rem;
+        border-radius: 1rem;
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 99%;
+            border-radius: 1rem;
+            background: linear-gradient(to bottom, transparent, transparent, transparent, rgba(0, 0, 0, 0.5));
+        }
+        &_moviebg{
+            background-image: url("../images/allofusaredead.png");
+            width: 285px;
+            height: 310px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+        &_info{
+            position: absolute;
+            top: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            h3{
+                font-family: "Fredoka", sans-serif;
+                color: #fff;
+                margin: 0;
+                letter-spacing: 1px;
+            }
+            &_watch{
+                display: flex;
+                align-items: center;
+                background-color: rgba(255, 255, 255, 0.3);
+                margin-top: 0.45em;
+                padding: 0.5rem 0.8rem;
+                border-radius: 1rem;
+                h4{
+                    font-family: "Fredoka", sans-serif;
+                    margin: 0;
+                    color: white;
+                    font-weight: 500;
+                    font-size: 0.8rem;
+                    
+                }
+                span{
+                    color: white;
+                    font-size: 1.2rem;
+                    margin-right: 0.3rem;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

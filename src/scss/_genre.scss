@@ -1,0 +1,69 @@
+.media{
+    padding: 2rem 3rem;
+    background-color: #EAF1F5;
+    &_heading{
+        font-family: "Fredoka", sans-serif;
+        font-size: 1.3rem;
+        margin: 0 0 1rem 0;
+    }
+    &_logo{
+        display: flex;
+        align-items: center;
+        &_netflix{
+            font-size: 1.5rem;
+            padding: 0.5rem 0.7rem 0.4rem 0.7rem;
+            background-color: black;
+            color: #E50914;
+            border-radius: 0.6rem;
+        }
+        &_prime{
+            font-size: 1.5rem;
+            padding: 0.6rem 0.7rem 0.4rem 0.7rem;
+            background-color: #00A8E1;
+            color: white;
+            border-radius: 0.6rem;
+        }
+        &_hulu{
+            font-size: 1.5rem;
+            padding: 0.5rem 0.7rem 0.4rem 0.7rem;
+            background-color: black;
+            color: #3DBB3D;
+            border-radius: 0.6rem;
+        }
+        &_apple{
+            font-size: 1.5rem;
+            padding: 0.5rem 0.7rem 0.4rem 0.7rem;
+            background-color: black;
+            color: #fff;
+            border-radius: 0.6rem;
+        }
+        &_heading{
+            font-family: "Fredoka", sans-serif;
+            color: #a1a1a1;
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin-left: 1rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.genre{
+    padding: 2rem 3rem;
+    background-color: #EAF1F5;
+    &_heading{
+        font-family: "Fredoka", sans-serif;
+        font-size: 1.3rem;
+        margin: 0 0 1rem 0;
+    }
+    h4{
+        margin: 0;
+        font-family: "Fredoka", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #a1a1a1;
+        padding-bottom: 1.85rem;
+        cursor: pointer;
+    }
+}
